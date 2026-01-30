@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Dotfuscator/">
-    <File Path="CommandPromptOutput.txt" />
+    <File Path="Dotfuscator/CommandPromptOutput.txt" />
     <File Path="Dotfuscator/dotfuscator.xml" />
     <File Path="Dotfuscator/dotfuscatorFIXED.xml" />
     <File Path="Dotfuscator/obfuscate.bat" />
