@@ -1,0 +1,32 @@
+
+C:\Users\chris\source\repos\DotfuscatorVer750_BadAttributes\Dotfuscator>obfuscate.bat
+
+C:\Users\chris\source\repos\DotfuscatorVer750_BadAttributes\Dotfuscator>rem 1) Open a developer command prompt
+
+C:\Users\chris\source\repos\DotfuscatorVer750_BadAttributes\Dotfuscator>rem 2) cd to the folder that contains obfuscate.bat
+
+C:\Users\chris\source\repos\DotfuscatorVer750_BadAttributes\Dotfuscator>rem 3) run obfuscate.bat to produce the bug
+
+C:\Users\chris\source\repos\DotfuscatorVer750_BadAttributes\Dotfuscator>rem See README.md for description of the BUG and a WORKAROUND
+
+C:\Users\chris\source\repos\DotfuscatorVer750_BadAttributes\Dotfuscator>"C:\Program Files (x86)\PreEmptive Protection Dotfuscator Professional 7.5.0\dotfuscator.exe" dotfuscator.xml
+PreEmptive Protection Dotfuscator Professional Version 7.5.0+b3e290d373
+Copyright 2002-2025 PreEmptive Solutions, LLC All Rights Reserved.
+Use of this software constitutes acceptance of the accompanying license agreement.
+
+XML Validation error: The configuration file (C:\Users\chris\source\repos\DotfuscatorVer750_BadAttributes\Dotfuscator\dotfuscator.xml) does not look like a valid Dotfuscator configuration file: The 'name' attribute is not declared.
+
+Usage: dotfuscator [options] [config_file]
+
+Option
+   /i                    : investigate only
+   /p=<property list>    : specifies values for user defined properties in config file. Comma separated list of name-value pairs:
+                           (eg:  /p=outdir=c:\temp,name=MyApp)
+   /q                    : quiet
+   /nologo               : suppress copyright and licensing information
+   /v                    : verbose
+   /c:<culture>          : set user interface language (requires appropriate language resources). Argument is the lowercase language code:
+                           (eg:  /c:de, /c:ja, /c:zh-CHS)
+   /?                    : print this message
+   /??                   : print extended options
+   [config_file]         : configuration file containing runtime options

@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Dotfuscator/">
+    <File Path="CommandPromptOutput.txt" />
+    <File Path="Dotfuscator/dotfuscator.xml" />
+    <File Path="Dotfuscator/dotfuscatorFIXED.xml" />
+    <File Path="Dotfuscator/obfuscate.bat" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="LibraryAssembly1/LibraryAssembly1.csproj" />
+  <Project Path="LibraryAssembly2/LibraryAssembly2.csproj" />
+  <Project Path="WpfApp1/WpfApp1.csproj" Id="5336b758-3038-4339-9ce8-31f9f5ad2367" />
+</Solution>
